@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_services_expertises",
+  "info": {
+    "displayName": "services expertise"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

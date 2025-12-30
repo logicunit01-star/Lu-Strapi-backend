@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_challenges",
+  "info": {
+    "displayName": "challenges"
+  },
+  "options": {},
+  "attributes": {
+    "challengesHeading": {
+      "type": "string"
+    },
+    "challengesContent": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

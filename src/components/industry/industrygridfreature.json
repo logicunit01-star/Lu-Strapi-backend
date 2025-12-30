@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_industrygridfreatures",
+  "info": {
+    "displayName": "industrygridfreature"
+  },
+  "options": {},
+  "attributes": {
+    "subchildSlug": {
+      "type": "string"
+    },
+    "featuresubChild": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

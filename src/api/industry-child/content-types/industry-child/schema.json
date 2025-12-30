@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_children",
+  "info": {
+    "singularName": "industry-child",
+    "pluralName": "industry-children",
+    "displayName": "Industry child"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "industryChild": {
+      "type": "component",
+      "component": "industry.industry-child",
+      "repeatable": true
+    }
+  }
+}

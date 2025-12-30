@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_methodologies",
+  "info": {
+    "displayName": "methodologies"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

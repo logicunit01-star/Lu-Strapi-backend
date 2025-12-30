@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_submissions",
+  "info": {
+    "singularName": "form-submission",
+    "pluralName": "form-submissions",
+    "displayName": "formSubmission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "companyOrganization": {
+      "type": "string"
+    },
+    "businessEmail": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "projectType": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

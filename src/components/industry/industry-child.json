@@ -1,0 +1,128 @@
+{
+  "collectionName": "components_industry_industry_children",
+  "info": {
+    "displayName": "industry child"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "heroTagline": {
+      "type": "string"
+    },
+    "heroHeadng": {
+      "type": "string"
+    },
+    "heroheadingSpan": {
+      "type": "string"
+    },
+    "heroContent": {
+      "type": "string"
+    },
+    "challengesTagline": {
+      "type": "string"
+    },
+    "challengesHeading": {
+      "type": "string"
+    },
+    "challengesheadingSpan": {
+      "type": "string"
+    },
+    "challengesContent": {
+      "type": "text"
+    },
+    "challenges": {
+      "type": "component",
+      "component": "industry.challenges",
+      "repeatable": true
+    },
+    "sectorTagline": {
+      "type": "string"
+    },
+    "sectorHeading": {
+      "type": "string"
+    },
+    "sectorHeadingSpan": {
+      "type": "string"
+    },
+    "sectorHeadingContent": {
+      "type": "string"
+    },
+    "industryGrid": {
+      "type": "component",
+      "component": "industry.industry-grid",
+      "repeatable": true
+    },
+    "approachTagline": {
+      "type": "string"
+    },
+    "approachHeading": {
+      "type": "string"
+    },
+    "approachheadingSpan": {
+      "type": "text"
+    },
+    "approachContent": {
+      "type": "string"
+    },
+    "approaches": {
+      "type": "component",
+      "component": "industry.indutryapproach",
+      "repeatable": true
+    },
+    "whychooseTagline": {
+      "type": "string"
+    },
+    "whychooseHeading": {
+      "type": "string"
+    },
+    "whychooseheadingSpan": {
+      "type": "string"
+    },
+    "whychooseContent": {
+      "type": "text"
+    },
+    "choose": {
+      "type": "component",
+      "component": "industry.choosedata",
+      "repeatable": true
+    },
+    "engagementTagline": {
+      "type": "string"
+    },
+    "engagementHeading": {
+      "type": "string"
+    },
+    "engagementheadingSpan": {
+      "type": "string"
+    },
+    "engagementContent": {
+      "type": "text"
+    },
+    "industryFaq": {
+      "type": "component",
+      "component": "industry.faqs",
+      "repeatable": true
+    },
+    "ctaHeading": {
+      "type": "string"
+    },
+    "ctaContent": {
+      "type": "string"
+    },
+    "ctabtnText": {
+      "type": "string"
+    },
+    "navName": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,111 @@
+{
+  "collectionName": "components_services_services_children",
+  "info": {
+    "displayName": "services child"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "heroTagline": {
+      "type": "string"
+    },
+    "heroHeading": {
+      "type": "string"
+    },
+    "heroheadingSpan": {
+      "type": "string"
+    },
+    "visiontagline": {
+      "type": "string"
+    },
+    "visionHeading": {
+      "type": "string"
+    },
+    "visionheadingSpan": {
+      "type": "string"
+    },
+    "visionContent": {
+      "type": "string"
+    },
+    "visioncolheadingOne": {
+      "type": "string"
+    },
+    "visioncolcontentOne": {
+      "type": "string"
+    },
+    "visioncolheadingTwo": {
+      "type": "string"
+    },
+    "visioncolcontentTwo": {
+      "type": "string"
+    },
+    "coreTagline": {
+      "type": "string"
+    },
+    "coreHeading": {
+      "type": "string"
+    },
+    "coreheadingSpan": {
+      "type": "string"
+    },
+    "coreDescription": {
+      "type": "string"
+    },
+    "coreServices": {
+      "type": "component",
+      "component": "services.services-grid",
+      "repeatable": true
+    },
+    "expertiseTagline": {
+      "type": "string"
+    },
+    "expertiseHeading": {
+      "type": "string"
+    },
+    "expertiseheadingSpan": {
+      "type": "string"
+    },
+    "expertiseDescription": {
+      "type": "string"
+    },
+    "expertise": {
+      "type": "component",
+      "component": "services.services-expertise",
+      "repeatable": true
+    },
+    "methodologyTagline": {
+      "type": "string"
+    },
+    "methodologyHeading": {
+      "type": "string"
+    },
+    "methodologyheadingSpan": {
+      "type": "string"
+    },
+    "methodolgies": {
+      "type": "component",
+      "component": "services.methodologies",
+      "repeatable": true
+    },
+    "faq": {
+      "type": "component",
+      "component": "services.services-faq",
+      "repeatable": true
+    },
+    "heroContent": {
+      "type": "string"
+    },
+    "methodologyContent": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

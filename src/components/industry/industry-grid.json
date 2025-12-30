@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_industry_industry_grids",
+  "info": {
+    "displayName": "industryGrid"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "industryName": {
+      "type": "string"
+    },
+    "industrydesrciption": {
+      "type": "string"
+    },
+    "subchildindustries": {
+      "type": "component",
+      "component": "industry.industrygridfreature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

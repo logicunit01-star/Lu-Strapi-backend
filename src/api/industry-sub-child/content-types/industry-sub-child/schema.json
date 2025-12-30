@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_sub_children",
+  "info": {
+    "singularName": "industry-sub-child",
+    "pluralName": "industry-sub-children",
+    "displayName": "industry sub child"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_choosedata",
+  "info": {
+    "displayName": "choosedata"
+  },
+  "options": {},
+  "attributes": {
+    "chooseHeading": {
+      "type": "string"
+    },
+    "chooseContent": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

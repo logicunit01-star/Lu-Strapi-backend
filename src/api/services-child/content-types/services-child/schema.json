@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_children",
+  "info": {
+    "singularName": "services-child",
+    "pluralName": "services-children",
+    "displayName": "services child"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "servicesChild": {
+      "type": "component",
+      "component": "services.services-child",
+      "repeatable": true
+    }
+  }
+}

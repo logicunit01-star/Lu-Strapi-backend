@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_indutryapproaches",
+  "info": {
+    "displayName": "indutryapproach"
+  },
+  "options": {},
+  "attributes": {
+    "approacesHeading": {
+      "type": "string"
+    },
+    "approacesContent": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

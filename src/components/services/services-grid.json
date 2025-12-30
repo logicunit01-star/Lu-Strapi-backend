@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_services_grids",
+  "info": {
+    "displayName": "servicesGrid"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "serviceHeading": {
+      "type": "string"
+    },
+    "serviceDescription": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
