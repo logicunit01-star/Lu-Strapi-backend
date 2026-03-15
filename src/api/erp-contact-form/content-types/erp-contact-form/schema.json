@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "erp_contact_forms",
+  "info": {
+    "singularName": "erp-contact-form",
+    "pluralName": "erp-contact-forms",
+    "displayName": "erp contact form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "businessSize": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "integer"
+    },
+    "currentSystem": {
+      "type": "string"
+    },
+    "mainoperationalChallenges": {
+      "type": "string"
+    },
+    "workingEmail": {
+      "type": "email"
+    }
+  }
+}

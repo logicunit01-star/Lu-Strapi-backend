@@ -564,6 +564,41 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiErpContactFormErpContactForm
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'erp_contact_forms';
+  info: {
+    displayName: 'erp contact form';
+    pluralName: 'erp-contact-forms';
+    singularName: 'erp-contact-form';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    businessSize: Schema.Attribute.String;
+    companyName: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    currentSystem: Schema.Attribute.String;
+    Industry: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::erp-contact-form.erp-contact-form'
+    > &
+      Schema.Attribute.Private;
+    mainoperationalChallenges: Schema.Attribute.String;
+    phoneNumber: Schema.Attribute.Integer;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    workingEmail: Schema.Attribute.Email;
+  };
+}
+
 export interface ApiFormSubmissionFormSubmission
   extends Struct.CollectionTypeSchema {
   collectionName: 'form_submissions';
@@ -1273,6 +1308,7 @@ declare module '@strapi/strapi' {
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
+      'api::erp-contact-form.erp-contact-form': ApiErpContactFormErpContactForm;
       'api::form-submission.form-submission': ApiFormSubmissionFormSubmission;
       'api::global.global': ApiGlobalGlobal;
       'api::industry-child.industry-child': ApiIndustryChildIndustryChild;
